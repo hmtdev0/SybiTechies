@@ -1,0 +1,822 @@
+{
+    "site_info": {
+        "company_name": "SysbiTechies",
+        "email": "hello@sysbitechies.com",
+        "phone": "+1 (555) 123-4567",
+        "whatsapp": "+15551234567",
+        "address": "101 Innovation Drive, Tech Park, CA 94103",
+        "business_hours": "Mon – Fri: 9:00 AM – 6:00 PM",
+        "copyright_text": "© 2026 SysbiTechies. All rights reserved.",
+        "footer_text": "We are a premium software house transforming ideas into powerful digital solutions — building enterprise software, web & mobile apps, ERP and CRM systems that help businesses grow.",
+        "facebook_url": "https://facebook.com/sysbitechies",
+        "instagram_url": "https://instagram.com/sysbitechies",
+        "linkedin_url": "https://linkedin.com/company/sysbitechies",
+        "twitter_url": "https://x.com/sysbitechies",
+        "github_url": "https://github.com/sysbitechies"
+    },
+    "navigation": {
+        "header": [
+            {
+                "label": "Home",
+                "url": "/"
+            },
+            {
+                "label": "About",
+                "url": "/about"
+            },
+            {
+                "label": "Services",
+                "url": "/#services"
+            },
+            {
+                "label": "Projects",
+                "url": "/projects"
+            },
+            {
+                "label": "Process",
+                "url": "/#process"
+            },
+            {
+                "label": "Why Us",
+                "url": "/#why-us"
+            },
+            {
+                "label": "Testimonials",
+                "url": "/#testimonials"
+            },
+            {
+                "label": "Contact",
+                "url": "/contact"
+            }
+        ],
+        "footer": [
+            {
+                "label": "Home",
+                "url": "/"
+            },
+            {
+                "label": "About Us",
+                "url": "/about"
+            },
+            {
+                "label": "Services",
+                "url": "/#services"
+            },
+            {
+                "label": "Projects",
+                "url": "/projects"
+            },
+            {
+                "label": "Why Choose Us",
+                "url": "/#why-us"
+            },
+            {
+                "label": "Contact",
+                "url": "/contact"
+            }
+        ]
+    },
+    "home_page": {
+        "hero": {
+            "badge_text": "Trusted Software Development Company",
+            "title": "Building Innovative Software That Helps Businesses Grow",
+            "typed_words": [
+                "Web Applications.",
+                "Mobile Apps.",
+                "Desktop Software.",
+                "ERP Systems.",
+                "CRM Solutions.",
+                "AI Solutions."
+            ],
+            "description": "SysbiTechies is a full-service IT solutions company & software house. We design and engineer scalable web applications, mobile apps, desktop software, ERP and CRM systems, and AI-driven automation that move real businesses forward.",
+            "button_primary": {
+                "text": "Get Started",
+                "link": "/contact"
+            },
+            "button_secondary": {
+                "text": "Our Projects",
+                "link": "/projects"
+            },
+            "stats": [
+                {
+                    "icon": "bi-rocket-takeoff",
+                    "number": 150,
+                    "suffix": "+",
+                    "label": "Projects Delivered"
+                },
+                {
+                    "icon": "bi-emoji-smile",
+                    "number": 100,
+                    "suffix": "+",
+                    "label": "Happy Clients"
+                },
+                {
+                    "icon": "bi-award",
+                    "number": 6,
+                    "suffix": "+",
+                    "label": "Years Experience"
+                }
+            ]
+        },
+        "trusted_companies": [
+            {
+                "name": "Nexora"
+            },
+            {
+                "name": "Vertexa"
+            },
+            {
+                "name": "Cloudify"
+            },
+            {
+                "name": "Quantic"
+            },
+            {
+                "name": "BrightPay"
+            },
+            {
+                "name": "Medicore"
+            },
+            {
+                "name": "EduSphere"
+            },
+            {
+                "name": "Retailix"
+            },
+            {
+                "name": "FinNova"
+            },
+            {
+                "name": "Logiflow"
+            }
+        ],
+        "why_choose_us": [
+            {
+                "icon": "bi-people-fill",
+                "title": "Experienced Team",
+                "description": "Senior engineers with deep expertise across the full technology stack."
+            },
+            {
+                "icon": "bi-briefcase-fill",
+                "title": "Business Focused Solutions",
+                "description": "We solve real problems and tie every feature back to business value."
+            },
+            {
+                "icon": "bi-diagram-2-fill",
+                "title": "Scalable Architecture",
+                "description": "Systems designed to grow effortlessly as your user base expands."
+            },
+            {
+                "icon": "bi-arrow-repeat",
+                "title": "Agile Development",
+                "description": "Iterative delivery with full transparency and frequent releases."
+            },
+            {
+                "icon": "bi-shield-lock-fill",
+                "title": "Secure Development",
+                "description": "Security-first practices baked into every stage of the build."
+            },
+            {
+                "icon": "bi-file-code-fill",
+                "title": "Clean Code",
+                "description": "Maintainable, well-tested and documented code you can build on."
+            },
+            {
+                "icon": "bi-clock-history",
+                "title": "On-Time Delivery",
+                "description": "Realistic milestones and dependable delivery, every single time."
+            },
+            {
+                "icon": "bi-life-preserver",
+                "title": "Long-Term Support",
+                "description": "A lasting partnership with proactive maintenance and support."
+            }
+        ],
+        "process_steps": [
+            {
+                "step_number": 1,
+                "title": "Discovery",
+                "description": "We dive deep into your goals, users and requirements.",
+                "icon": "bi-search"
+            },
+            {
+                "step_number": 2,
+                "title": "Planning",
+                "description": "Scope, roadmap, architecture and milestones are defined.",
+                "icon": "bi-clipboard-data"
+            },
+            {
+                "step_number": 3,
+                "title": "UI/UX Design",
+                "description": "Wireframes and pixel-perfect, user-centric interfaces.",
+                "icon": "bi-palette2"
+            },
+            {
+                "step_number": 4,
+                "title": "Development",
+                "description": "Clean, scalable code built in agile sprints.",
+                "icon": "bi-code-slash"
+            },
+            {
+                "step_number": 5,
+                "title": "Testing",
+                "description": "Rigorous QA to ensure quality, security and speed.",
+                "icon": "bi-bug"
+            },
+            {
+                "step_number": 6,
+                "title": "Deployment",
+                "description": "Smooth, zero-downtime launch to production.",
+                "icon": "bi-rocket-takeoff"
+            },
+            {
+                "step_number": 7,
+                "title": "Support",
+                "description": "Ongoing maintenance, monitoring and enhancements.",
+                "icon": "bi-headset"
+            }
+        ],
+        "technologies": [
+            {
+                "name": "Laravel",
+                "icon": "bi-server",
+                "color": "#FF2D20"
+            },
+            {
+                "name": "PHP",
+                "icon": "bi-filetype-php",
+                "color": "#777BB4"
+            },
+            {
+                "name": "JavaScript",
+                "icon": "bi-filetype-js",
+                "color": "#F7DF1E"
+            },
+            {
+                "name": "HTML5",
+                "icon": "bi-filetype-html",
+                "color": "#E34F26"
+            },
+            {
+                "name": "CSS3",
+                "icon": "bi-filetype-css",
+                "color": "#1572B6"
+            },
+            {
+                "name": "Bootstrap 5",
+                "icon": "bi-bootstrap",
+                "color": "#7952B3"
+            },
+            {
+                "name": "Flutter",
+                "icon": "bi-phone",
+                "color": "#02569B"
+            },
+            {
+                "name": "Python",
+                "icon": "bi-filetype-py",
+                "color": "#3776AB"
+            },
+            {
+                "name": "MySQL",
+                "icon": "bi-database",
+                "color": "#4479A1"
+            },
+            {
+                "name": "Git",
+                "icon": "bi-git",
+                "color": "#F05032"
+            },
+            {
+                "name": "REST APIs",
+                "icon": "bi-hdd-network",
+                "color": "#06B6D4"
+            }
+        ],
+        "statistics_band": [
+            {
+                "icon": "bi-check2-circle",
+                "number": 150,
+                "suffix": "+",
+                "label": "Projects Completed"
+            },
+            {
+                "icon": "bi-emoji-smile",
+                "number": 100,
+                "suffix": "+",
+                "label": "Happy Clients"
+            },
+            {
+                "icon": "bi-buildings",
+                "number": 20,
+                "suffix": "+",
+                "label": "Industries Served"
+            },
+            {
+                "icon": "bi-award",
+                "number": 6,
+                "suffix": "+",
+                "label": "Years Experience"
+            },
+            {
+                "icon": "bi-hand-thumbs-up",
+                "number": 99,
+                "suffix": "%",
+                "label": "Client Satisfaction"
+            },
+            {
+                "icon": "bi-headset",
+                "number": 24,
+                "suffix": "/7",
+                "label": "Technical Support"
+            }
+        ],
+        "industries": [
+            {
+                "icon": "bi-heart-pulse",
+                "name": "Healthcare"
+            },
+            {
+                "icon": "bi-mortarboard",
+                "name": "Education"
+            },
+            {
+                "icon": "bi-bag",
+                "name": "Retail"
+            },
+            {
+                "icon": "bi-cup-hot",
+                "name": "Restaurants"
+            },
+            {
+                "icon": "bi-cash-coin",
+                "name": "Finance"
+            },
+            {
+                "icon": "bi-house-door",
+                "name": "Real Estate"
+            },
+            {
+                "icon": "bi-gear-wide-connected",
+                "name": "Manufacturing"
+            },
+            {
+                "icon": "bi-truck",
+                "name": "Logistics"
+            },
+            {
+                "icon": "bi-building",
+                "name": "Corporate"
+            },
+            {
+                "icon": "bi-lightning-charge",
+                "name": "Startups"
+            }
+        ],
+        "testimonials": [
+            {
+                "photo": "assets/images/testimonials/client-1.jpg",
+                "client_name": "Daniel Morgan",
+                "company": "Nexora Retail",
+                "designation": "CEO",
+                "review": "SysbiTechies rebuilt our entire inventory platform. It is fast, reliable and their team truly understood our business. Sales operations have never run smoother.",
+                "rating": 5
+            },
+            {
+                "photo": "assets/images/testimonials/client-2.jpg",
+                "client_name": "Sophia Bennett",
+                "company": "EduSphere",
+                "designation": "Founder",
+                "review": "They delivered our school ERP ahead of schedule with impeccable quality. Communication was clear at every step. A partner we fully trust.",
+                "rating": 5
+            },
+            {
+                "photo": "assets/images/testimonials/client-3.jpg",
+                "client_name": "Michael Chen",
+                "company": "FinNova",
+                "designation": "CTO",
+                "review": "The custom CRM they built transformed how our sales team works. Clean code, thoughtful UX and rock-solid security. Highly recommended.",
+                "rating": 5
+            },
+            {
+                "photo": "assets/images/testimonials/client-4.jpg",
+                "client_name": "Emma Watson",
+                "company": "Medicore",
+                "designation": "Director",
+                "review": "Our hospital management software runs flawlessly across departments. Their long-term support has been outstanding and genuinely responsive.",
+                "rating": 5
+            },
+            {
+                "photo": "assets/images/testimonials/client-5.jpg",
+                "client_name": "James Carter",
+                "company": "Logiflow",
+                "designation": "Owner",
+                "review": "From discovery to deployment, everything was professional and transparent. The logistics dashboard they built saves us hours every day.",
+                "rating": 5
+            },
+            {
+                "photo": "assets/images/testimonials/client-6.jpg",
+                "client_name": "Olivia Reed",
+                "company": "BrightPay",
+                "designation": "COO",
+                "review": "A phenomenal engineering team. They took our vague idea and turned it into a polished, scalable product our customers love.",
+                "rating": 5
+            }
+        ]
+    },
+    "about_page": {
+        "image": "assets/images/about/team-office.jpg",
+        "mission": {
+            "title": "Our Mission",
+            "text": "To empower businesses with reliable, future-ready software that drives measurable growth."
+        },
+        "vision": {
+            "title": "Our Vision",
+            "text": "To be a globally trusted engineering partner known for quality, integrity and innovation."
+        },
+        "story": {
+            "title": "Our Story",
+            "text": "SysbiTechies started with a simple goal: help businesses turn ambitious ideas into software that actually ships. Today we partner with startups and enterprises alike, engineering web, mobile, desktop, ERP and CRM solutions across a wide range of industries."
+        },
+        "features": [
+            {
+                "icon": "bi-gem",
+                "title": "Core Values",
+                "description": "Transparency, craftsmanship, ownership and a relentless focus on client success."
+            }
+        ],
+        "statistics": [
+            {
+                "icon": "bi-check2-circle",
+                "number": 150,
+                "suffix": "+",
+                "label": "Projects"
+            },
+            {
+                "icon": "bi-emoji-smile",
+                "number": 100,
+                "suffix": "+",
+                "label": "Clients"
+            },
+            {
+                "icon": "bi-globe",
+                "number": 20,
+                "suffix": "+",
+                "label": "Countries"
+            },
+            {
+                "icon": "bi-award",
+                "number": 6,
+                "suffix": "+",
+                "label": "Years"
+            }
+        ],
+        "timeline": [],
+        "team_members": [
+            {
+                "photo": "assets/images/experts/global-1.png",
+                "name": "William Damian",
+                "position": "Founder & CEO",
+                "bio": "Leads product strategy and client partnerships across every engagement."
+            },
+            {
+                "photo": "assets/images/experts/global-2.png",
+                "name": "Harry Callum",
+                "position": "Lead Web Developer",
+                "bio": "Architects scalable Laravel applications and mentors the engineering team."
+            },
+            {
+                "photo": "assets/images/experts/global-3.png",
+                "name": "Matthew Hunter",
+                "position": "UI/UX Designer",
+                "bio": "Designs premium, conversion-focused interfaces for web and mobile products."
+            },
+            {
+                "photo": "assets/images/experts/global-4.png",
+                "name": "James Thomas",
+                "position": "Marketing Head",
+                "bio": "Drives growth strategy and client acquisition for SysbiTechies."
+            }
+        ]
+    },
+    "services": [
+        {
+            "icon": "bi-code-square",
+            "title": "Custom Software Development",
+            "slug": "custom-software-development",
+            "short_description": "Tailor-made software engineered precisely around your unique business workflows.",
+            "full_description": "Tailor-made software engineered precisely around your unique business workflows."
+        },
+        {
+            "icon": "bi-globe2",
+            "title": "Web Development",
+            "slug": "web-development",
+            "short_description": "Fast, secure and scalable websites and web apps built on modern frameworks.",
+            "full_description": "Fast, secure and scalable websites and web apps built on modern frameworks."
+        },
+        {
+            "icon": "bi-phone",
+            "title": "Mobile App Development",
+            "slug": "mobile-app-development",
+            "short_description": "Native-quality iOS & Android apps with smooth UX and reliable performance.",
+            "full_description": "Native-quality iOS & Android apps with smooth UX and reliable performance."
+        },
+        {
+            "icon": "bi-window-desktop",
+            "title": "Desktop Application Development",
+            "slug": "desktop-application-development",
+            "short_description": "Powerful cross-platform desktop software for Windows, macOS and Linux.",
+            "full_description": "Powerful cross-platform desktop software for Windows, macOS and Linux."
+        },
+        {
+            "icon": "bi-buildings",
+            "title": "Enterprise Software Solutions",
+            "slug": "enterprise-software-solutions",
+            "short_description": "Robust systems that scale with large teams, high traffic and complex data.",
+            "full_description": "Robust systems that scale with large teams, high traffic and complex data."
+        },
+        {
+            "icon": "bi-diagram-3",
+            "title": "ERP Development",
+            "slug": "erp-development",
+            "short_description": "Unify operations, inventory, finance and HR into one intelligent platform.",
+            "full_description": "Unify operations, inventory, finance and HR into one intelligent platform."
+        },
+        {
+            "icon": "bi-people",
+            "title": "CRM Development",
+            "slug": "crm-development",
+            "short_description": "Manage leads, sales pipelines and customers with automation that converts.",
+            "full_description": "Manage leads, sales pipelines and customers with automation that converts."
+        },
+        {
+            "icon": "bi-robot",
+            "title": "AI & Business Automation",
+            "slug": "ai-business-automation",
+            "short_description": "Automate repetitive work and unlock insights with smart AI-driven tools.",
+            "full_description": "Automate repetitive work and unlock insights with smart AI-driven tools."
+        },
+        {
+            "icon": "bi-cart3",
+            "title": "E-Commerce Solutions",
+            "slug": "e-commerce-solutions",
+            "short_description": "High-converting online stores with secure payments and inventory control.",
+            "full_description": "High-converting online stores with secure payments and inventory control."
+        },
+        {
+            "icon": "bi-palette",
+            "title": "UI/UX Design",
+            "slug": "uiux-design",
+            "short_description": "Beautiful, intuitive interfaces designed to delight users and boost engagement.",
+            "full_description": "Beautiful, intuitive interfaces designed to delight users and boost engagement."
+        },
+        {
+            "icon": "bi-wordpress",
+            "title": "WordPress Development",
+            "slug": "wordpress-development",
+            "short_description": "Custom themes, plugins and blazing-fast managed WordPress websites.",
+            "full_description": "Custom themes, plugins and blazing-fast managed WordPress websites."
+        },
+        {
+            "icon": "bi-tools",
+            "title": "Maintenance & Support",
+            "slug": "maintenance-support",
+            "short_description": "Proactive monitoring, updates and 24/7 support to keep you running.",
+            "full_description": "Proactive monitoring, updates and 24/7 support to keep you running."
+        }
+    ],
+    "project_categories": [
+        "Web",
+        "Mobile",
+        "Desktop",
+        "ERP",
+        "CRM"
+    ],
+    "projects": [
+        {
+            "name": "Clinic Management System",
+            "slug": "clinic-management-system",
+            "thumbnail": "assets/images/projects/clinic-management.jpg",
+            "description": "<p>We partnered with a growing multi-doctor clinic to replace three disconnected spreadsheets and a paper appointment book with a single, reliable system their front-desk and clinical staff could actually enjoy using. The result is a full clinic operations platform that handles everything from the first phone call to the final invoice.</p>\r\n        <img src=\"/assets/images/projects/clinic-management.jpg\" alt=\"Clinic Management System dashboard\">\r\n        <h3>Key Highlights</h3>\r\n        <ul>\r\n            <li>Real-time appointment scheduling with conflict detection across multiple doctors and rooms</li>\r\n            <li>Centralized patient records — history, prescriptions, lab results and visit notes in one timeline</li>\r\n            <li>Automated billing with itemized invoices, insurance claim tracking and payment reminders</li>\r\n            <li>Role-based access so receptionists, nurses and doctors each see only what they need</li>\r\n            <li>Built-in reporting for daily footfall, revenue and doctor-wise performance</li>\r\n        </ul>\r\n        <p>Since launch, the clinic has cut patient check-in time by more than half and eliminated double-bookings entirely, freeing the front-desk team to focus on patients instead of paperwork.</p>",
+            "is_featured": true,
+            "category": "ERP",
+            "technologies": [
+                "Laravel",
+                "Bootstrap 5",
+                "MySQL"
+            ]
+        },
+        {
+            "name": "School Management ERP",
+            "slug": "school-management-erp",
+            "thumbnail": "assets/images/projects/school-erp.jpg",
+            "description": "<p>Built for a mid-sized private school network, this ERP unifies admissions, day-to-day academics and finance across multiple campuses that previously ran on separate, inconsistent tools. Administrators, teachers and parents now share one source of truth.</p>\n        <img src=\"/assets/images/projects/school-erp.jpg\" alt=\"School Management ERP interface\">\n        <h3>Key Highlights</h3>\n        <ul>\n            <li>End-to-end admissions workflow — application, document verification, seat allocation and fee assignment</li>\n            <li>Digital attendance with SMS/email alerts sent automatically to parents</li>\n            <li>Exam and result management with auto-generated report cards and grade analytics</li>\n            <li>Fee collection with installment plans, late-fee rules and an online parent payment portal</li>\n            <li>A dedicated dashboard per role: administration, teaching staff and parents</li>\n        </ul>\n        <p>The school now runs three campuses from a single admin console, and parent-teacher communication that used to happen through phone calls now happens instantly inside the platform.</p>",
+            "is_featured": true,
+            "category": "ERP",
+            "technologies": [
+                "Laravel",
+                "JavaScript",
+                "MySQL"
+            ]
+        },
+        {
+            "name": "Restaurant POS",
+            "slug": "restaurant-pos",
+            "thumbnail": "assets/images/projects/restaurant-pos.jpg",
+            "description": "<p>A regional restaurant chain needed a point-of-sale system fast enough for a dinner rush and reliable enough to survive a flaky internet connection. We built a desktop-first POS with an offline-capable core and a live kitchen display that keeps the kitchen and floor staff perfectly in sync.</p>\n        <img src=\"/assets/images/projects/restaurant-pos.jpg\" alt=\"Restaurant POS kitchen display and checkout screen\">\n        <h3>Key Highlights</h3>\n        <ul>\n            <li>Table-side ordering synced instantly to a kitchen display system (KDS) — no more shouted tickets</li>\n            <li>Split bills, custom modifiers and tip handling built for real restaurant floor workflows</li>\n            <li>Offline-first design that queues orders locally and syncs the moment connectivity returns</li>\n            <li>Live sales analytics: best-sellers, peak hours and per-table turnover</li>\n            <li>Multi-terminal support so several checkout stations share one live order queue</li>\n        </ul>\n        <p>Average order-to-kitchen time dropped from over a minute of manual relay to a few seconds, and the chain now has real visibility into which dishes actually perform.</p>",
+            "is_featured": true,
+            "category": "Desktop",
+            "technologies": [
+                "PHP",
+                "Flutter"
+            ]
+        },
+        {
+            "name": "Inventory Management System",
+            "slug": "inventory-management-system",
+            "thumbnail": "assets/images/projects/inventory-management.jpg",
+            "description": "<p>A distribution business with three warehouses came to us drowning in stock-count spreadsheets and last-minute reorder panics. We delivered a real-time inventory platform that tracks every unit from purchase order to shelf, across every location, with nobody needing to touch Excel again.</p><h3><img src=\"/assets/images/projects/inventory-management.jpg\" alt=\"Inventory Management System stock dashboard\">Key Highlights</h3><ul><li>Live stock levels across multiple warehouses with per-location transfer tracking</li><li>Automated low-stock alerts and one-click purchase order generation</li><li>Barcode-based receiving and picking to cut manual entry errors</li><li>Supplier and purchasing history with cost trend reporting</li><li>Role-based dashboards for warehouse staff, purchasing and management</li></ul><p>Stockouts on fast-moving items dropped sharply within the first quarter, and month-end stock reconciliation — once a two-day exercise — now takes minutes.</p>",
+            "is_featured": true,
+            "category": "Web",
+            "technologies": [
+                "Laravel",
+                "Bootstrap 5",
+                "MySQL"
+            ]
+        },
+        {
+            "name": "Hospital Management Software",
+            "slug": "hospital-management-software",
+            "thumbnail": "assets/images/projects/hospital-management.jpg",
+            "description": "<p>This was our most ambitious healthcare build: a single platform coordinating outpatient (OPD), inpatient (IPD), pharmacy, diagnostic labs and billing for a full-service hospital. Every department needed its own workflow, yet all of them had to share one accurate patient record.</p><h3><img src=\"/assets/images/projects/hospital-management.jpg\" alt=\"Hospital Management Software multi-department view\">Key Highlights</h3><ul><li>Unified patient record shared across OPD, IPD, pharmacy and lab departments</li><li>Bed management and ward allocation with live occupancy tracking</li><li>Pharmacy module with stock-linked prescription dispensing</li><li>Lab order-to-result workflow with digital report delivery</li><li>Consolidated billing that automatically pulls charges from every department a patient visits</li></ul><p>What used to require patients to carry paper files between departments now happens automatically in the background — doctors, pharmacists and lab technicians all work from the same live record.</p>",
+            "is_featured": true,
+            "category": "ERP",
+            "technologies": [
+                "Laravel",
+                "Python",
+                "MySQL"
+            ]
+        },
+        {
+            "name": "Customer Support Live Chat",
+            "slug": "customer-support-live-chat",
+            "thumbnail": "assets/images/projects/live-chat.jpg",
+            "description": "<p>A SaaS company was losing customers to slow email-only support. We built a real-time live chat and ticketing platform that lets their support team respond in seconds instead of hours, without losing the structure of a proper ticketing workflow.</p><h3><img src=\"/assets/images/projects/live-chat.jpg\" alt=\"Customer Support Live Chat widget and agent dashboard\">Key Highlights</h3><ul><li>Embeddable live chat widget with instant, WebSocket-powered messaging</li><li>Automatic ticket creation from chat conversations, emails and web forms in one inbox</li><li>Canned responses and internal notes so agents can move faster without sounding robotic</li><li>Real-time agent availability and smart conversation routing</li><li>Response-time and satisfaction reporting for support managers</li></ul><p>Average first-response time fell from hours to under a minute, and the support team now handles a higher ticket volume with the same headcount.</p>",
+            "is_featured": true,
+            "category": "Web",
+            "technologies": [
+                "PHP",
+                "JavaScript"
+            ]
+        },
+        {
+            "name": "Car Rental Management System",
+            "slug": "car-rental-management-system",
+            "thumbnail": "assets/images/projects/car-rental.jpg",
+            "description": "<p>A car rental operator running a growing fleet needed to move off manual booking sheets and phone-based contracts. We built a single dashboard covering the entire rental lifecycle — from fleet availability to signed contract to online payment.</p>\n        <img src=\"/assets/images/projects/car-rental.jpg\" alt=\"Car Rental Management System fleet dashboard\">\n        <h3>Key Highlights</h3>\n        <ul>\n            <li>Live fleet availability calendar that prevents double-booking any vehicle</li>\n            <li>Digital rental agreements generated and signed directly in the booking flow</li>\n            <li>Integrated online payments with deposit handling and automatic refunds</li>\n            <li>Maintenance scheduling tied to mileage and rental history per vehicle</li>\n            <li>Branch-wise reporting on utilization, revenue and fleet health</li>\n        </ul>\n        <p>The operator now runs bookings across multiple branches from one dashboard, with fleet utilization visibility they never had with the old paper-and-spreadsheet process.</p>",
+            "is_featured": false,
+            "category": "Web",
+            "technologies": [
+                "Laravel",
+                "JavaScript",
+                "MySQL"
+            ]
+        },
+        {
+            "name": "Real Estate CRM",
+            "slug": "real-estate-crm",
+            "thumbnail": "assets/images/projects/real-estate-crm.jpg",
+            "description": "<p>A real estate agency needed to stop losing leads between spreadsheets, WhatsApp chats and sticky notes. We built a purpose-made CRM that captures every enquiry automatically and walks agents through a proper sales pipeline, from first contact to closed deal.</p>\n        <img src=\"/assets/images/projects/real-estate-crm.jpg\" alt=\"Real Estate CRM lead and pipeline view\">\n        <h3>Key Highlights</h3>\n        <ul>\n            <li>Automatic lead capture from the website, phone enquiries and listing portals</li>\n            <li>Visual sales pipeline with drag-and-drop stage tracking per lead</li>\n            <li>Property listing management with photos, pricing and availability status</li>\n            <li>Automated follow-up reminders so no lead goes cold unnoticed</li>\n            <li>Agent-wise performance dashboards for conversion rate and deal value</li>\n        </ul>\n        <p>Lead response time improved dramatically, and management finally has a clear, real-time view of the pipeline instead of chasing agents for weekly updates.</p>",
+            "is_featured": false,
+            "category": "CRM",
+            "technologies": [
+                "Laravel",
+                "Bootstrap 5",
+                "MySQL"
+            ]
+        },
+        {
+            "name": "Accounting Software",
+            "slug": "accounting-software",
+            "thumbnail": "assets/images/projects/accounting-software.jpg",
+            "description": "<p>A small accounting firm serving dozens of SME clients needed to move beyond generic spreadsheets without the cost and complexity of enterprise accounting suites. We built lean, desktop-based accounting software focused on exactly what they use every day.</p>\n        <img src=\"/assets/images/projects/accounting-software.jpg\" alt=\"Accounting Software invoicing and reports screen\">\n        <h3>Key Highlights</h3>\n        <ul>\n            <li>Invoicing and expense tracking with recurring billing support</li>\n            <li>Automated ledger posting — journal entries update every linked report instantly</li>\n            <li>Tax computation aligned to local filing requirements, reducing manual calculation</li>\n            <li>Financial reports (P&amp;L, balance sheet, cash flow) generated in a couple of clicks</li>\n            <li>Multi-client support so the firm can manage every customer from one installation</li>\n        </ul>\n        <p>Month-end closing that used to take the firm most of a week now wraps up in a couple of days, with far fewer reconciliation errors to chase down.</p>",
+            "is_featured": false,
+            "category": "Desktop",
+            "technologies": [
+                "Python",
+                "MySQL"
+            ]
+        },
+        {
+            "name": "HR & Payroll System",
+            "slug": "hr-payroll-system",
+            "thumbnail": "assets/images/projects/hr-payroll.jpg",
+            "description": "<p>A 200-person company was still running payroll through a maze of spreadsheets that took days to reconcile and were painfully easy to get wrong. We replaced it with an HR and payroll system that automates the entire cycle from clock-in to payslip.</p>\n        <img src=\"/assets/images/projects/hr-payroll.jpg\" alt=\"HR and Payroll System employee dashboard\">\n        <h3>Key Highlights</h3>\n        <ul>\n            <li>Centralized employee records — contracts, documents and role history in one profile</li>\n            <li>Attendance and leave management with manager approval workflows</li>\n            <li>Automated payroll runs that factor in attendance, overtime, leaves and deductions</li>\n            <li>Payslip generation and distribution with a self-service employee portal</li>\n            <li>Compliance-ready reports for tax and statutory filings</li>\n        </ul>\n        <p>What used to be a multi-day, error-prone payroll cycle now runs in a few hours each month, and employees get instant, transparent access to their own records.</p>",
+            "is_featured": false,
+            "category": "ERP",
+            "technologies": [
+                "Laravel",
+                "JavaScript",
+                "MySQL"
+            ]
+        },
+        {
+            "name": "Food Delivery App",
+            "slug": "food-delivery-app",
+            "thumbnail": "assets/images/projects/restaurant-pos.jpg",
+            "description": "<p>We built a two-sided food delivery platform — a customer ordering app and a rider app — for a local delivery startup competing against national chains. The focus was speed: fast ordering, fast dispatch and live tracking that keeps customers confident their food is on the way.</p>\n        <img src=\"/assets/images/projects/restaurant-pos.jpg\" alt=\"Food Delivery App order tracking screen\">\n        <h3>Key Highlights</h3>\n        <ul>\n            <li>Customer app with restaurant browsing, live cart and one-tap reordering</li>\n            <li>Rider app with optimized delivery routing and real-time order updates</li>\n            <li>Live GPS order tracking so customers watch their delivery in real time</li>\n            <li>Integrated in-app payments alongside cash-on-delivery support</li>\n            <li>Automated rider assignment based on proximity and current load</li>\n        </ul>\n        <p>The platform now handles peak-hour order surges smoothly, with average delivery time consistently beating the startup&rsquo;s original target.</p>",
+            "is_featured": false,
+            "category": "Mobile",
+            "technologies": [
+                "Flutter",
+                "MySQL"
+            ]
+        },
+        {
+            "name": "Property Finder App",
+            "slug": "property-finder-app",
+            "thumbnail": "assets/images/projects/real-estate-crm.jpg",
+            "description": "<p>A property portal wanted to move beyond static listings and give house-hunters a genuinely mobile-first experience — one where browsing, booking a viewing and messaging an agent all happen without ever leaving the app.</p>\r\n        <img src=\"/assets/images/projects/real-estate-crm.jpg\" alt=\"Property Finder App listing and search screen\">\r\n        <h3>Key Highlights</h3>\r\n        <ul>\r\n            <li>Location-aware property search with rich filters (price, type, amenities, distance)</li>\r\n            <li>In-app scheduling for property tours directly with listing agents</li>\r\n            <li>Built-in messaging so buyers and agents never need to leave the platform</li>\r\n            <li>Saved searches with push notifications when a matching property is listed</li>\r\n            <li>High-resolution photo galleries and map-based browsing</li>\r\n        </ul>\r\n        <p>Agents on the platform report faster response cycles with prospective buyers, and users spend noticeably longer sessions browsing thanks to the smoother in-app experience.</p>",
+            "is_featured": false,
+            "category": "Mobile",
+            "technologies": [
+                "PHP",
+                "Flutter"
+            ]
+        }
+    ],
+    "blog_categories": [
+        "Web Development",
+        "Mobile Development",
+        "Business Software",
+        "Company News"
+    ],
+    "blog_posts": [
+        {
+            "title": "The Five Devices You Need To Work Anytime And Anywhere",
+            "slug": "the-five-devices-you-need-to-work-anytime-and-anywhere",
+            "excerpt": "A practical look at the hardware setup that keeps distributed engineering teams productive.",
+            "content": "Remote-first teams need more than a laptop. In this post we cover the five devices our own engineers rely on to stay productive from anywhere — from a reliable second monitor to a mechanical keyboard that survives long sprint sessions.\n\nInvesting in the right hardware pays for itself quickly in fewer errors and faster delivery.",
+            "published_at": "2026-07-05T13:24:38.000000Z",
+            "category": "Business Software"
+        },
+        {
+            "title": "TikTok Illegally Collecting Data, Sharing With China",
+            "slug": "tiktok-illegally-collecting-data-sharing-with-china",
+            "excerpt": "What the latest data-privacy headlines mean for software teams building consumer apps.",
+            "content": "Data privacy regulations are tightening worldwide. For teams building consumer-facing apps, this means baking consent management and data minimization into the architecture from day one, not bolting it on after launch.\n\nWe walk through the practices SysbiTechies applies on every client project to stay ahead of compliance requirements.",
+            "published_at": "2026-06-28T13:24:38.000000Z",
+            "category": "Company News"
+        },
+        {
+            "title": "Where And How To Watch Live Stream Today",
+            "slug": "where-and-how-to-watch-live-stream-today",
+            "excerpt": "A quick technical overview of building reliable live-streaming experiences on the web.",
+            "content": "Live streaming on the web comes with unique challenges: latency, adaptive bitrate, and cross-browser playback support. This post breaks down the architecture patterns we use when a client needs real-time video delivered reliably at scale.",
+            "published_at": "2026-06-21T13:24:38.000000Z",
+            "category": "Web Development"
+        },
+        {
+            "title": "Why Every Growing Business Needs a Custom CRM",
+            "slug": "why-every-growing-business-needs-a-custom-crm",
+            "excerpt": "Off-the-shelf CRMs are a great start — until they start holding your sales team back.",
+            "content": "As businesses scale past their first few hundred customers, generic CRM tools often become a bottleneck. We share the signs it's time to invest in a custom CRM, and how a tailored data model can unlock real sales velocity.",
+            "published_at": "2026-06-14T13:24:38.000000Z",
+            "category": "Business Software"
+        }
+    ],
+    "contact_page": {
+        "hero": {
+            "eyebrow": "Contact Us",
+            "title": "Let's Start a Conversation",
+            "subtitle": "Whether you have a project in mind or just a question — our team usually replies within one business day.",
+            "trust_chips": [
+                "Replies within 1 business day",
+                "Free consultation",
+                "NDA on request"
+            ]
+        },
+        "faqs": [
+            {
+                "question": "How fast do you reply?",
+                "answer": "We aim to respond to every enquiry within one business day — most of the time it's a lot sooner. If your project is urgent, mention it in your message and we'll prioritize it."
+            },
+            {
+                "question": "Do you sign NDAs?",
+                "answer": "Absolutely. We're happy to sign a mutual NDA before discussing any sensitive details of your project — just let us know when you reach out."
+            },
+            {
+                "question": "What's your typical project process?",
+                "answer": "We start with a discovery call, follow up with a scoped proposal and timeline, then move through design, development, testing and launch in clear, milestone-based sprints."
+            },
+            {
+                "question": "Do you work with startups or only enterprises?",
+                "answer": "Both. Our team is built to flex — from lean MVPs for early-stage startups to complex, multi-department systems for established enterprises."
+            },
+            {
+                "question": "What information should I include in my message?",
+                "answer": "A short description of what you're building, your rough timeline, and any budget range you have in mind. The more context you give us, the faster we can respond with something useful."
+            }
+        ]
+    }
+}

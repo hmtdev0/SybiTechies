@@ -1,0 +1,235 @@
+/* =========================================================
+   SysbiTechies — responsive.css
+   Complete responsive optimization pass.
+   Breakpoint ladder (desktop-first, cascades downward):
+     ≥1400px  Large Desktop  — extra breathing room
+     1200–1399 Desktop        — baseline (style.css/premium.css)
+     1024–1199 Laptop
+      768–1023 Tablet
+      600–767  Large phones (hero/CTA buttons still row)
+      425–599  Small phones (hero/CTA buttons stack full width)
+      375–424  Smaller phones
+      320–374  Extra small
+   Loads LAST — wins over style.css and premium.css.
+   ========================================================= */
+
+/* ---------- Large Desktop ( ≥ 1400px ) ---------- */
+@media (min-width: 1400px) {
+    .container { max-width: 1320px; }
+}
+
+/* ---------- Big card grids: 600–1199.98px ----------
+   Services, Projects and Why-Choose-Us cards show 2-per-row across the
+   entire phone-landscape / tablet / iPad / small-laptop range — from
+   600px (where buttons also switch to a row) all the way up to just
+   before true desktop. Below 600px they fall back to 1-per-row
+   (natural full-width stacking, no override needed). At ≥1200px the
+   original desktop column count (3 for services/projects, 4 for
+   why-us) is untouched. */
+@media (min-width: 600px) and (max-width: 1199.98px) {
+    #services .col-lg-4,
+    #projects .col-lg-4 { width: 50%; max-width: 50%; }
+    #why-us .col-lg-3 { width: 50%; max-width: 50%; }
+}
+
+/* ---------- Laptop ( ≤ 1199.98px, i.e. 1024–1199 ) ---------- */
+@media (max-width: 1199.98px) {
+    .section-pad { padding: 88px 0; }
+    .stats, .cta { padding: 88px 0; }
+
+    /* Hero: dial back the desktop-only enlargement so the illustration
+       keeps comfortable breathing room next to the text column at
+       laptop widths. True desktop (≥1200px) is left untouched. */
+    .hero__visual { transform: none; }
+    .hero__illustration { width: 100%; }
+
+    .floating-card--projects { left: 0; }
+    .floating-card--clients { right: 0; }
+    .floating-card--code { right: 0; }
+    .industries__grid { grid-template-columns: repeat(5, 1fr); }
+    .process__timeline { gap: 10px; }
+    .process-step__desc { font-size: .8rem; }
+}
+
+/* ---------- Tablet upper ( ≤ 1023.98px, i.e. 768–1023 ) ---------- */
+@media (max-width: 1023.98px) {
+    .section-pad { padding: 80px 0; }
+    .stats, .cta { padding: 80px 0; }
+    .section-head { margin-bottom: 40px; }
+
+    .tech-card { width: 150px; padding: 32px 20px; }
+    .tech-card__icon { font-size: 3.4rem; }
+}
+
+/* ---------- Tablet landscape ( ≤ 991.98px, Bootstrap lg breakpoint ) ---------- */
+@media (max-width: 991.98px) {
+    html { scroll-padding-top: 76px; }
+
+    /* Hero: centered, full-width title (desktop's 15ch cap doesn't
+       belong once the layout stacks/centers below 992px) */
+    .hero { min-height: auto; padding: 130px 0 80px; text-align: center; }
+    .hero__badge { margin-left: auto; margin-right: auto; }
+    .hero__title { max-width: 100%; }
+    .hero__desc { margin-left: auto; margin-right: auto; }
+    .hero__actions { justify-content: center; }
+    .hero__trust { justify-content: center; }
+    .hero__visual { margin-top: 0; margin-bottom: 40px; max-width: 520px; margin-left: auto; margin-right: auto; }
+    .hero__scroll { display: none; }
+
+    /* Reorder: illustration on top, text below — desktop (≥992px) keeps
+       the original text-left / illustration-right layout untouched. */
+    .hero__col-visual { order: -1; }
+    .hero__col-text { order: 1; }
+
+    /* Navbar: bigger touch targets, smoother offcanvas */
+    .navbar-toggler { padding: 10px; min-width: 44px; min-height: 44px; align-items: center; justify-content: center; }
+    .mobile-menu { max-width: 88vw; }
+
+    /* About */
+    .about__visual { max-width: 520px; margin: 0 auto 20px; }
+    .about__pillars { max-width: 620px; }
+
+    /* Process — wraps into 2 rows (4 + 3). Keep the animated connector,
+       but only within a row: hide it after the 4th item (row break) and
+       after the last item, so it never bridges across the wrap. */
+    .process__timeline { grid-template-columns: repeat(4, 1fr); gap: 26px 14px; }
+    .process-step:nth-child(4n) .process-step__connector { display: none; }
+
+    /* Industries */
+    .industries__grid { grid-template-columns: repeat(4, 1fr); }
+
+    /* Contact */
+    .contact__info { margin-bottom: 8px; }
+}
+
+/* ---------- Tablet portrait / large phones upper bound ( ≤ 767.98px, Bootstrap md breakpoint ) ---------- */
+@media (max-width: 767.98px) {
+    .section-pad { padding: 64px 0; }
+    .stats, .cta { padding: 64px 0; }
+    .section-head { margin-bottom: 32px; }
+    .section-title { font-size: 1.75rem; }
+    .section-lead { font-size: 1rem; }
+
+    .hero { padding: 120px 0 60px; }
+    .hero__title { font-size: 2.1rem; width: 100%; max-width: 100%; }
+
+    /* Floating cards smaller */
+    .floating-card { padding: 10px 13px; }
+    .floating-card__icon { width: 38px; height: 38px; font-size: 1.05rem; }
+    .floating-card__num { font-size: 1.05rem; }
+    .floating-card--code { display: none; }
+
+    /* Process — wraps into rows of 2. Same rule as tablet: hide the
+       connector after every row's last item (even positions) so each
+       animated line only ever joins two steps in the same row. */
+    .process__timeline { grid-template-columns: repeat(2, 1fr); gap: 30px 16px; }
+    .process-step:nth-child(2n) .process-step__connector { display: none; }
+
+    /* Technologies */
+    .tech-card { width: 140px; padding: 28px 18px; }
+    .tech-card__icon { font-size: 3.2rem; }
+
+    /* Industries */
+    .industries__grid { grid-template-columns: repeat(3, 1fr); }
+
+    /* About counters */
+    .about__counters { grid-template-columns: repeat(2, 1fr); gap: 22px 12px; }
+    .about__experience-badge { right: 12px; }
+
+    /* Cards / panels padding — 8px-system compliant */
+    .cta__inner { padding: 48px 24px; }
+    .contact__form-wrap, .contact__info { padding: 32px 24px; }
+    .service-card { padding: 32px 24px; }
+
+    .footer-bottom { flex-direction: column; text-align: center; }
+}
+
+/* ---------- Small screens ( ≤ 599.98px ) ----------
+   Hero and CTA buttons stay in a row (smaller, centered) all the way
+   down from desktop through tablet and large phones — only below
+   600px do they stack to full width, where a row would feel cramped. */
+@media (max-width: 599.98px) {
+    .hero__actions { flex-direction: column; }
+    .hero__actions .btn { width: 100%; }
+
+    .cta__actions { flex-direction: column; align-items: stretch; }
+    .cta__actions .btn { width: 100%; }
+}
+
+/* ---------- Large phones ( ≤ 575.98px, transitional ) ---------- */
+@media (max-width: 575.98px) {
+    .hero__typed-line { font-size: 1.1rem; }
+    .brand-text { font-size: 1.18rem; }
+
+    /* Declutter floating cards: frame the illustration with two clean corner
+       cards, fully contained within the image, and drop the third to avoid
+       overlap on small phones. Visual is first in the stack now, so give
+       it room below (before the text) instead of above. */
+    .hero__visual { margin-top: 12px; margin-bottom: 36px; }
+    .floating-card { padding: 9px 12px; border-radius: 14px; }
+    .floating-card__icon { width: 36px; height: 36px; font-size: 1rem; }
+    .floating-card__num { font-size: 1rem; }
+    .floating-card__label { font-size: .68rem; }
+    .floating-card--projects { top: -10px; left: -8px; }
+    .floating-card--clients { bottom: -10px; right: -8px; }
+    .floating-card--exp { display: none; }
+
+    /* Stats */
+    .stat-box__num { font-size: 2rem; }
+
+    /* Tech cards */
+    .tech-card { width: calc(50% - 12px); padding: 26px 16px; }
+    .tech-card__icon { font-size: 2.9rem; }
+    .tech__grid { gap: 12px; }
+
+    .projects__filters { gap: 8px; }
+    .filter-btn { padding: 8px 18px; font-size: .84rem; }
+
+    .cta__title { font-size: 1.7rem; }
+
+    .back-to-top { right: 16px; bottom: 16px; width: 46px; height: 46px; }
+}
+
+/* ---------- Small phones ( ≤ 424.98px, i.e. 375–424 ) ---------- */
+@media (max-width: 424.98px) {
+    .section-pad { padding: 56px 0; }
+    .stats, .cta { padding: 56px 0; }
+    .section-head { margin-bottom: 28px; }
+
+    .hero__title { font-size: 1.85rem; }
+
+    /* Industries — 2 cols, roomy */
+    .industries__grid { grid-template-columns: repeat(2, 1fr); gap: 14px; }
+
+    .about__experience-badge { padding: 14px 18px; max-width: 150px; right: 8px; }
+    .about__experience-num { font-size: 1.8rem; }
+}
+
+/* ---------- Extra small ( ≤ 374.98px, i.e. 320–374 ) ---------- */
+@media (max-width: 374.98px) {
+    .section-pad { padding: 48px 0; }
+    .stats, .cta { padding: 48px 0; }
+    .section-head { margin-bottom: 24px; }
+
+    /* keep 2 columns even at 320px so cards don't look sparse */
+    .industries__grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+    .about__counters { grid-template-columns: 1fr 1fr; }
+
+    .hero__title { font-size: 1.7rem; }
+    .tech-card { width: calc(50% - 10px); padding: 24px 12px; }
+    .tech-card__icon { font-size: 2.6rem; }
+
+    .cta__inner { padding: 40px 20px; }
+    .contact__form-wrap, .contact__info { padding: 28px 20px; }
+    .service-card, .why-card { padding: 28px 20px; }
+}
+
+/* ---------- Reduced motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: .001ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .001ms !important;
+        scroll-behavior: auto !important;
+    }
+}
